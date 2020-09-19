@@ -22,7 +22,8 @@ public class PlayerController : MonoBehaviour
     public GameObject effect;
 
     public GameObject gameOverUI;
-  
+
+    public AudioSource coin;
     
 
     // Start is called before the first frame update
@@ -30,8 +31,7 @@ public class PlayerController : MonoBehaviour
     {
         extraJumps = extraJumpsValue;
         rb=GetComponent<Rigidbody2D>();
-      
-
+        coin = GetComponent<AudioSource>();
         
     }
 
@@ -68,14 +68,14 @@ public class PlayerController : MonoBehaviour
         
     }
 
-    
+
 
 
 
     void OnCollisionEnter2D(Collision2D col)
     {
 
-        if (col.transform.CompareTag("KillZone")|| col.transform.CompareTag("enemy"))
+        if (col.transform.CompareTag("KillZone") || col.transform.CompareTag("enemy"))
         {
             //Instantiate(effect, transform.position, Quaternion.identity);
             //Destroy(gameObject);
@@ -84,16 +84,17 @@ public class PlayerController : MonoBehaviour
             Time.timeScale = 0f;
 
             //col.transform.position = spawnPoint.position;
-            
+
             //rb.transform.position = spawnPoint.position;
 
             // SceneManager.LoadScene("GameOver");
 
             //ScoreScript.scoreValue=0;
         }
-       
-
+        if (col.transform.CompareTag("Coin"))
+        {
+            coin.Play();
+        }
     }
-   
 
 }
