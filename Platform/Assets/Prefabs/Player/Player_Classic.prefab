@@ -155,7 +155,7 @@ MonoBehaviour:
   extraJumpsValue: 0
   spawnPoint: {fileID: 0}
   effect: {fileID: 8191761117591505034, guid: 98b32e85003b8f244be254c43b718c31, type: 3}
-  player: {fileID: 9211812712741988012}
+  gameOverUI: {fileID: 0}
 --- !u!1 &9211812713612083440
 GameObject:
   m_ObjectHideFlags: 0

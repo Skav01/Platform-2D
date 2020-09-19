@@ -8,6 +8,8 @@ public class Coin : MonoBehaviour
 
     public GameObject effect;
 
+ 
+
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if(collision.transform.CompareTag("Player"))
