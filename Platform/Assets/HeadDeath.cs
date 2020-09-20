@@ -15,7 +15,8 @@ public class HeadDeath : MonoBehaviour
         if (col.transform.CompareTag("Player"))
         {
             // col.transform.position = spawnPoint.position;
-            Instantiate(effect, transform.position, Quaternion.identity);
+            
+            //Instantiate(effect, transform.position, Quaternion.identity);
             Destroy(enemy);
 
             //ScoreScript.scoreValue = fallcube -1;
