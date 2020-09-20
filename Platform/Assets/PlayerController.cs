@@ -80,12 +80,11 @@ public class PlayerController : MonoBehaviour
             //Instantiate(effect, transform.position, Quaternion.identity);
             //Destroy(gameObject);
 
-            gameOverUI.SetActive(true);
-            Time.timeScale = 0f;
+            
 
             //col.transform.position = spawnPoint.position;
 
-            //rb.transform.position = spawnPoint.position;
+            rb.transform.position = spawnPoint.position;
 
             // SceneManager.LoadScene("GameOver");
 

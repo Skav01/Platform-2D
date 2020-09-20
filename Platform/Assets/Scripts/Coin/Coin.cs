@@ -18,6 +18,7 @@ public class Coin : MonoBehaviour
             ScoreScript.coinAmount += 1;
             Instantiate(effect, transform.position, Quaternion.identity);
             Destroy(gameObject);
+            
         }
     }
 }
