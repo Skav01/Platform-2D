@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8639187062577566221}
   - component: {fileID: 768249789585520461}
+  - component: {fileID: 632592677793147664}
   m_Layer: 0
   m_Name: EnemyGiallo
   m_TagString: enemy
@@ -53,6 +54,19 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &632592677793147664
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 479203379036351042}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6af23ac3ba7bae43abe674bef9bd1c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemy: {fileID: 479203379036351042}
 --- !u!1 &2529203853477848827
 GameObject:
   m_ObjectHideFlags: 0
@@ -243,7 +257,7 @@ Rigidbody2D:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3942944089152462770}
   m_BodyType: 2
-  m_Simulated: 1
+  m_Simulated: 0
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
