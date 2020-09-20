@@ -4,41 +4,5 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes:
-  - enabled: 1
-    path: "Assets/Scenes/Men\xF9.unity"
-    guid: 465aaf1ce2ae195439c7fdd40ad5b28b
-  - enabled: 1
-    path: Assets/Scenes/Levels.unity
-    guid: 04b1ddabf9ecda741905d75f6bb9afc1
-  - enabled: 1
-    path: Assets/Scenes/CharacterSelection.unity
-    guid: 80c61e88a9e855c4fb2d5f71cdb24c0b
-  - enabled: 1
-    path: Assets/Scenes/GameOver.unity
-    guid: b840ce66db2cda74dbba8f3406a13fd7
-  - enabled: 1
-    path: Assets/Scenes/Level_1.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
-  - enabled: 1
-    path: Assets/Scenes/Level_2.unity
-    guid: 944afa0fc4a20f849ab3156bf85acddc
-  - enabled: 1
-    path: Assets/Scenes/Level_3.unity
-    guid: 8deb4dc44abd18e46aaa7abdddd15263
-  - enabled: 1
-    path: Assets/Scenes/Level_4.unity
-    guid: 2a3f6d51f12054e44be0d31297a27b00
-  - enabled: 1
-    path: Assets/Scenes/Level_5.unity
-    guid: d575803c0b0dcc244ba830490f0683e9
-  - enabled: 1
-    path: Assets/Scenes/Level_6.unity
-    guid: 90315b732fb463843abbfad1af43febe
-  - enabled: 1
-    path: Assets/Scenes/Level_7.unity
-    guid: 7fafb088c9fc39043afce7a87de6ee6a
-  - enabled: 1
-    path: Assets/Scenes/Level_10(SW).unity
-    guid: 2d8a425a106b88647903eab47c3c6aa5
+  m_Scenes: []
   m_configObjects: {}
