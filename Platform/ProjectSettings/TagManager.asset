@@ -9,6 +9,7 @@ TagManager:
   - TheEnd
   - Ground
   - Coin
+  - Head
   layers:
   - Default
   - TransparentFX
