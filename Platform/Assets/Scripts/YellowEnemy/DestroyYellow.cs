@@ -10,8 +10,8 @@ public class DestroyYellow : MonoBehaviour
     {
         if (col.gameObject.tag=="Body")
         {
-            Debug.Log("COLPITO");
-            //Destroy(enemy);
+            // Debug.Log("COLPITO");
+            Destroy(enemy);
 
         }
 

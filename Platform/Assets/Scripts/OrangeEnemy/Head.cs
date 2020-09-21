@@ -22,7 +22,7 @@ public class Head : MonoBehaviour
             headIsHere = false;
             movimento();
             Destroy(head);
-
+          
         }
        
               
@@ -32,6 +32,11 @@ public class Head : MonoBehaviour
     {
         //body = GetComponent<Rigidbody2D>;
         body.velocity = new Vector2(speed, 0);
+        
+
+
+
+
     }
 
 }

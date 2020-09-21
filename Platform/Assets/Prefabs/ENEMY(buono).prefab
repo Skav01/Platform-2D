@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 1970194544679343520}
   - component: {fileID: 1970194544679343523}
   - component: {fileID: 8900294816946469616}
+  - component: {fileID: 2801990460713928505}
   m_Layer: 0
   m_Name: ENEMY(buono)
   m_TagString: enemy
@@ -146,6 +147,19 @@ MonoBehaviour:
   speed: 5
   distance: 1
   groundDetection: {fileID: 8900294816580497467}
+--- !u!114 &2801990460713928505
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1970194544679343522}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6af23ac3ba7bae43abe674bef9bd1c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemy: {fileID: 1970194544679343522}
 --- !u!1 &8900294816580497466
 GameObject:
   m_ObjectHideFlags: 0
