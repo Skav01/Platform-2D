@@ -4,27 +4,30 @@ using UnityEngine;
 
 public class RLMov : MonoBehaviour
 {
-    public float velox=10.0f;
-    // Start is called before the first frame update
-    void Start()
-    {
-         
-    }
+    public float speed;
+    public float distance;
 
-    // Update is called once per frame
+    private bool movinLeft = true;
+    public Transform groundDetection;
+
     void Update()
     {
-        transform.Translate(Vector2.right * velox * Time.deltaTime);
-       
-        
-    }
-    void OnCollisionEnter(Collision col)
-    {
-        if (col.transform.CompareTag("Change"))
+        transform.Translate(Vector2.left * speed * Time.deltaTime);
+
+        RaycastHit2D groundInfo = Physics2D.Raycast(groundDetection.position, Vector2.up, distance);
+        if (groundInfo.collider == false)
         {
-            Debug.Log("Preso");
-            //velox *= -1;
- 
+            if (movinLeft == true)
+            {
+                transform.eulerAngles = new Vector3(180, 0, 0);
+                movinLeft = false;
+            }
+            else
+            {
+                transform.eulerAngles = new Vector3(180, -180, 0);
+                movinLeft = true;
+            }
         }
     }
+
 }
