@@ -120,26 +120,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &29276556 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5883223072210689369, guid: 3fa22ddbf434a6e4aa9a2c18c120d8ef,
-    type: 3}
-  m_PrefabInstance: {fileID: 815846229}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &29276562
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 29276556}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8452699714bc6674591ba7a5c823fef9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: {fileID: 1232823300}
-  offset: {x: 6.31, y: -1.4}
 --- !u!1 &757544431
 GameObject:
   m_ObjectHideFlags: 0
@@ -4566,6 +4546,12 @@ PrefabInstance:
         type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3fa22ddbf434a6e4aa9a2c18c120d8ef, type: 3}
+--- !u!4 &815846230 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5883223072210689348, guid: 3fa22ddbf434a6e4aa9a2c18c120d8ef,
+    type: 3}
+  m_PrefabInstance: {fileID: 815846229}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1232823297
 GameObject:
   m_ObjectHideFlags: 0
@@ -4577,6 +4563,7 @@ GameObject:
   - component: {fileID: 1232823300}
   - component: {fileID: 1232823299}
   - component: {fileID: 1232823298}
+  - component: {fileID: 1232823301}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -4649,6 +4636,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1232823301
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1232823297}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8452699714bc6674591ba7a5c823fef9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 815846230}
+  offset: {x: 6.31, y: -1.4}
 --- !u!1 &2070990053
 GameObject:
   m_ObjectHideFlags: 0

@@ -9,6 +9,7 @@ public class Gravity : MonoBehaviour
     public float speed;
 
     public Transform spawnPoint;
+    public Transform bonusSpawn;
 
     void Start()
     {
@@ -46,12 +47,26 @@ public class Gravity : MonoBehaviour
 
         if (col.transform.CompareTag("KillZone") || col.transform.CompareTag("enemy"))
         {
-            rb.transform.position = spawnPoint.position;
+            
 
             //gameOverUI.SetActive(true);
             //Time.timeScale = 0f;
 
-           
+            Heart.life -= 2;
+
+            if (Heart.life < 0)
+            {
+                //col.transform.position = spawnPoint.position;
+
+                rb.transform.position = spawnPoint.position;
+            }
+            // SceneManager.LoadScene("GameOver");
+            else if (Heart.life >= 0)
+            {
+                //col.transform.position = spawnPoint.position;
+
+                rb.transform.position = bonusSpawn.position;
+            }
         }
 
 

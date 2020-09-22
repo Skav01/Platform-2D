@@ -5,6 +5,7 @@ using UnityEngine;
 public class Cover : MonoBehaviour
 {
     public GameObject Protection;
+    public float speed;
     // Start is called before the first frame update
     void Start()
     {
@@ -20,7 +21,7 @@ public class Cover : MonoBehaviour
     {
         if(col.transform.CompareTag("Player"))
         {
-            Protection.velocity = new Vector2(speed, 0);
+            //Protection.velocity = new Vector2(speed, 0);
 
         }
 
