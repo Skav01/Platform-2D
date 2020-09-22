@@ -881,6 +881,11 @@ PrefabInstance:
       propertyPath: heart
       value: 
       objectReference: {fileID: 420343724}
+    - target: {fileID: 9211812712741988013, guid: cddb1ab11e7299f43a875f1c232e89dd,
+        type: 3}
+      propertyPath: bonusSpawn
+      value: 
+      objectReference: {fileID: 420343725}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cddb1ab11e7299f43a875f1c232e89dd, type: 3}
 --- !u!1 &1639041284
@@ -994,7 +999,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9bc060c7e5b1e70458ccde43fffd4f91, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  headCount: 0
+  effect: {fileID: 7541765932224173453, guid: b42e9191549a6d0459d6836f9682c807, type: 3}
 --- !u!1 &1695085246
 GameObject:
   m_ObjectHideFlags: 0

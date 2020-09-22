@@ -25,8 +25,8 @@ public class PlayerController : MonoBehaviour
 
     public AudioSource coin;
 
-    public static int heartCount = 1;
-    public GameObject heart;
+    
+    public Transform bonusSpawn;
 
     // Start is called before the first frame update
     void Start()
@@ -81,34 +81,26 @@ public class PlayerController : MonoBehaviour
         {
             //Instantiate(effect, transform.position, Quaternion.identity);
             //Destroy(gameObject);
-            heartCount -= 2;
-            Debug.Log(heartCount);
-
-            if (heartCount <0 && col.transform.CompareTag("KillZone") || col.transform.CompareTag("enemy"))
+            Heart.life -= 2;
+            
+            if (Heart.life<0)
             {
                 //col.transform.position = spawnPoint.position;
 
                 rb.transform.position = spawnPoint.position;
             }
             // SceneManager.LoadScene("GameOver");
-
-            //ScoreScript.scoreValue=0;
-        }
-        //if (col.transform.CompareTag("Coin"))
-        //{
-        //    coin.Play();
-        //}
-        if(col.transform.CompareTag("Heart"))
-        {
-            heartCount += 1;
-            Debug.Log(heartCount);
-            if (heartCount == 0 && col.transform.CompareTag("KillZone") || col.transform.CompareTag("enemy"))
+            else if (Heart.life >= 0)
             {
                 //col.transform.position = spawnPoint.position;
 
-                heart.transform.position = spawnPoint.position;
+                rb.transform.position = bonusSpawn.position;
             }
+            //ScoreScript.scoreValue=0;
         }
+        
+       
+        
     }
 
 }
