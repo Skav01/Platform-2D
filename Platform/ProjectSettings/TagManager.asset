@@ -13,6 +13,9 @@ TagManager:
   - Body
   - bottone
   - Muri
+  - Heart
+  - bottone1
+  - Muri1
   layers:
   - Default
   - TransparentFX

@@ -2,28 +2,28 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class DMuri : MonoBehaviour
+public class DMuri1 : MonoBehaviour
 {
-    GameObject Muri;
-    GameObject bottone;
+    GameObject Muri1;
+    GameObject bottone1;
     // Start is called before the first frame update
     void Start()
     {
-        Muri = GameObject.FindWithTag("Muri");
-        bottone = GameObject.FindWithTag("bottone");
+        Muri1 = GameObject.FindWithTag("Muri1");
+        bottone1 = GameObject.FindWithTag("bottone1");
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+
     }
     private void OnCollisionEnter2D(Collision2D col)
     {
-        if (col.transform.CompareTag("bottone"))
+        if (col.transform.CompareTag("bottone1"))
         {
 
-            Object.Destroy(Muri);
+            DestroyObject(Muri1);
 
         }
     }

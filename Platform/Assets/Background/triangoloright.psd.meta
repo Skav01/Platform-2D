@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -115,7 +115,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c340fa5bc7a9b5149887e73c95539c4c
+      spriteID: 064be022dd041e84299d985800d5e85e
       internalID: 5607368319041295691
       vertices: []
       indices: 
