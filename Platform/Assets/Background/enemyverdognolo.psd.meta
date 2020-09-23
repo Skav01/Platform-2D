@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 97106e31bebf3b64aad7b54005f20728
+guid: 3e41dcfb64021ef409639fb2ecd89958
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1521211229985656876
-    second: freccia_0
+      213: -8925136815722631873
+    second: enemyverdognolo_0
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -101,13 +101,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: freccia_0
+      name: enemyverdognolo_0
       rect:
         serializedVersion: 2
-        x: 357
-        y: 405
-        width: 1385
-        height: 692
+        x: 732
+        y: 399
+        width: 613
+        height: 580
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 934a4922f2b9c4442a7ee2a2356acfa6
-      internalID: -1521211229985656876
+      spriteID: 484b2325037f03b4b872d3614183931b
+      internalID: -8925136815722631873
       vertices: []
       indices: 
       edges: []

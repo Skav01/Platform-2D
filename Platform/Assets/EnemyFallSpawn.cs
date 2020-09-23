@@ -9,6 +9,12 @@ public class EnemyFallSpawn : MonoBehaviour
     public GameObject quadratorosso;
     public float spawnRate;
     public float nextSpawn;
+
+    public float x1;
+    public float x2;
+    public float y1;
+    public float y2;
+    public float z;
     int whatToSpwan;
 
     void Start()
@@ -28,7 +34,7 @@ public class EnemyFallSpawn : MonoBehaviour
             switch (whatToSpwan)
             {
                 case 1:
-                    Instantiate(quadratorosso, new Vector3(Random.Range(-10, 10), Random.Range(0,12), 0), Quaternion.identity);
+                    Instantiate(quadratorosso, new Vector3(Random.Range(x1, x2), Random.Range(y1,y2), z), Quaternion.identity);
                     //Instantiate(quadratorosso, transform.position, Quaternion.identity);
                     break;
 
