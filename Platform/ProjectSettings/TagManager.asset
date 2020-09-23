@@ -5,6 +5,14 @@ TagManager:
   serializedVersion: 2
   tags:
   - TheEnd
+  - enemy
+  - Change
+  - Coin
+  - Ground
+  - KillZone
+  - Body
+  - bottone
+  - Muri
   layers:
   - Default
   - TransparentFX
