@@ -45,7 +45,7 @@ public class Gravity : MonoBehaviour
     void OnCollisionEnter2D(Collision2D col)
     {
 
-        if (col.transform.CompareTag("KillZone") || col.transform.CompareTag("enemy"))
+        if (col.transform.CompareTag("KillZone") || col.transform.CompareTag("enemy")||col.transform.CompareTag("Rocket"))
         {
             
 
