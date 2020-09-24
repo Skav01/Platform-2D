@@ -68,6 +68,10 @@ public class Gravity : MonoBehaviour
                 rb.transform.position = bonusSpawn.position;
             }
         }
+        if (col.transform.CompareTag("Barchetta"))
+        {
+            speed = 0;
+        }
 
 
     }
