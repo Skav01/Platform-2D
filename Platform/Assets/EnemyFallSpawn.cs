@@ -7,6 +7,7 @@ public class EnemyFallSpawn : MonoBehaviour
 {
     // Start is called before the first frame update
     public GameObject quadratorosso;
+    public GameObject friend;
     public float spawnRate;
     public float nextSpawn;
 
@@ -35,6 +36,7 @@ public class EnemyFallSpawn : MonoBehaviour
             {
                 case 1:
                     Instantiate(quadratorosso, new Vector3(Random.Range(x1, x2), Random.Range(y1,y2), z), Quaternion.identity);
+                    Instantiate(friend, new Vector3(Random.Range(x1, x2), Random.Range(y1,y2), z), Quaternion.identity);
                     //Instantiate(quadratorosso, transform.position, Quaternion.identity);
                     break;
 
