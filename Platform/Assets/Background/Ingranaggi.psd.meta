@@ -17,6 +17,123 @@ TextureImporter:
   - first:
       213: -4214168606261549578
     second: Ingranaggi_4
+  - first:
+      213: -4570318472808689251
+    second: Ingranaggi_5
+  - first:
+      213: 582768125898700661
+    second: Ingranaggi_6
+  - first:
+      213: 3806361160663652559
+    second: Ingranaggi_7
+  - first:
+      213: -1684141251592569037
+    second: Ingranaggi_8
+  - first:
+      213: -2085253039582604558
+    second: Ingranaggi_9
+  - first:
+      213: -6093262344018986067
+    second: Ingranaggi_10
+  - first:
+      213: 9185160587401482968
+    second: Ingranaggi_11
+  - first:
+      213: 6015387654181607144
+    second: Ingranaggi_12
+  - first:
+      213: 4457275627507236985
+    second: Ingranaggi_13
+  - first:
+      213: -7826623672815809696
+    second: Ingranaggi_14
+  - first:
+      213: 9203282127987553744
+    second: Ingranaggi_15
+  - first:
+      213: -7819128500574963947
+    second: Ingranaggi_16
+  - first:
+      213: -5673882996062992227
+    second: Ingranaggi_17
+  - first:
+      213: 4874124512340564287
+    second: Ingranaggi_18
+  - first:
+      213: 4464285788719926063
+    second: Ingranaggi_19
+  - first:
+      213: -5975212532410276486
+    second: Ingranaggi_20
+  - first:
+      213: 8887911432799650193
+    second: Ingranaggi_21
+  - first:
+      213: 907001267262225960
+    second: Ingranaggi_22
+  - first:
+      213: 5056513828101795249
+    second: Ingranaggi_23
+  - first:
+      213: -2802845674626856191
+    second: Ingranaggi_24
+  - first:
+      213: 2016576878990990891
+    second: Ingranaggi_25
+  - first:
+      213: -4866946668119964184
+    second: Ingranaggi_26
+  - first:
+      213: -165895659559283837
+    second: Ingranaggi_27
+  - first:
+      213: -7715538420777182428
+    second: Ingranaggi_28
+  - first:
+      213: -4966693931112406211
+    second: Ingranaggi_29
+  - first:
+      213: 4560647324396385394
+    second: Ingranaggi_30
+  - first:
+      213: 4714800168662725334
+    second: Ingranaggi_31
+  - first:
+      213: -5891903166390634278
+    second: Ingranaggi_32
+  - first:
+      213: -4930820676003502839
+    second: Ingranaggi_33
+  - first:
+      213: 3274303512326667929
+    second: Ingranaggi_34
+  - first:
+      213: 4484026364604160459
+    second: Ingranaggi_35
+  - first:
+      213: -7355902425905095556
+    second: Ingranaggi_36
+  - first:
+      213: -8088764610809544287
+    second: Ingranaggi_37
+  - first:
+      213: 7526832135833133950
+    second: Ingranaggi_38
+  - first:
+      213: 8405685787306209547
+    second: Ingranaggi_39
+  - first:
+      213: -2859443079986751598
+    second: Ingranaggi_40
+  - first:
+      213: 7747484220932560625
+    second: Ingranaggi_41
+  - first:
+      213: -4683618077187489779
+    second: Ingranaggi_42
+  - first:
+      213: 7887201595150154835
+    second: Ingranaggi_43
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -116,10 +233,10 @@ TextureImporter:
       name: Ingranaggi_0
       rect:
         serializedVersion: 2
-        x: 342
-        y: 757
-        width: 354
-        height: 354
+        x: 690
+        y: 1357
+        width: 11
+        height: 7
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -127,7 +244,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e1cfafd36772466408e3d6278e95dbd9
+      spriteID: f0bb0c243283f36468c44846ca2fab93
       internalID: 1037971413228115646
       vertices: []
       indices: 
@@ -137,10 +254,10 @@ TextureImporter:
       name: Ingranaggi_1
       rect:
         serializedVersion: 2
-        x: 637
-        y: 1047
-        width: 195
-        height: 195
+        x: 706
+        y: 1361
+        width: 5
+        height: 5
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -148,7 +265,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 48616390d20bcae48a02580a57b1f534
+      spriteID: 91456abd7dbaed54aa383c85e40bf913
       internalID: -6882393733573514421
       vertices: []
       indices: 
@@ -156,6 +273,27 @@ TextureImporter:
       weights: []
     - serializedVersion: 2
       name: Ingranaggi_2
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 1341
+        width: 52
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d1f90e34a8acea45bd3ccca598bb7fd
+      internalID: -4680656564995641410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ingranaggi_3
       rect:
         serializedVersion: 2
         x: 1181
@@ -169,28 +307,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e25cdbc7bedcd2d448c72ab7bab9fabb
-      internalID: -4680656564995641410
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Ingranaggi_3
-      rect:
-        serializedVersion: 2
-        x: 422
-        y: 116
-        width: 493
-        height: 493
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b5fab8ee0dceea647bde06eac2db9fb7
+      spriteID: f269265a88443a04cb6f03fcc1d86e3e
       internalID: -7397368882551133821
       vertices: []
       indices: 
@@ -198,6 +315,489 @@ TextureImporter:
       weights: []
     - serializedVersion: 2
       name: Ingranaggi_4
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 1347
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e20f3188d4c0ba48a03779c4100cfaa
+      internalID: -4214168606261549578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ingranaggi_5
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 1325
+        width: 10
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e6563033952bfd4589c704b4cc553ed
+      internalID: -4570318472808689251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ingranaggi_6
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 1329
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e748ae243f664d44590225813c8f1075
+      internalID: 582768125898700661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ingranaggi_7
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 1281
+        width: 41
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd2d2b285c6889143916e96ed2019344
+      internalID: 3806361160663652559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ingranaggi_8
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 1316
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb0a139ba3380554aa234c85d58b87d7
+      internalID: -1684141251592569037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ingranaggi_9
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 1312
+        width: 17
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c20a34b3e8265f45a3d35fe85bbd175
+      internalID: -2085253039582604558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ingranaggi_10
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 1220
+        width: 10
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec13fa0fd08899442b7e98b807a896da
+      internalID: -6093262344018986067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ingranaggi_11
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 1250
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea114ecb320ee5642af21c45f5ff6b0e
+      internalID: 9185160587401482968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ingranaggi_12
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 1226
+        width: 36
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cae0eda2dfd0f2c479d43278e6bebf08
+      internalID: 6015387654181607144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ingranaggi_13
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 1274
+        width: 10
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5444e8aa0b06164d9c59fe2b3db0c54
+      internalID: 4457275627507236985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ingranaggi_14
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 1296
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffc33a789189e9345be4d59792c727d4
+      internalID: -7826623672815809696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ingranaggi_15
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 1306
+        width: 9
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 909d4431522bc654bb57d524451bb90d
+      internalID: 9203282127987553744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ingranaggi_16
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 1242
+        width: 35
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2ba68f447c48af4d837ccf2e2891ccd
+      internalID: -7819128500574963947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ingranaggi_17
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 1250
+        width: 10
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 765493e4f1e039d43bf65e13ed03d996
+      internalID: -5673882996062992227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ingranaggi_18
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 1219
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a823b61fd7b0b8542a8036b76e7f6dbe
+      internalID: 4874124512340564287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ingranaggi_19
+      rect:
+        serializedVersion: 2
+        x: 823
+        y: 1289
+        width: 9
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b88b2d1b2654b8d4792f5b43ee0c647c
+      internalID: 4464285788719926063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ingranaggi_20
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 882
+        width: 361
+        height: 353
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35d4930122ab3a04d907a6c34e444696
+      internalID: -5975212532410276486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ingranaggi_21
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 1226
+        width: 20
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc38a2c116cfe0d4e97fc45e72361828
+      internalID: 8887911432799650193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ingranaggi_22
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 1194
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b7a8824d92a5654ba2e013f43b14cee
+      internalID: 907001267262225960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ingranaggi_23
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 1171
+        width: 26
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c61d00bf2e15e404380e9dfde2c2d0e1
+      internalID: 5056513828101795249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ingranaggi_24
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 1176
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c848b50d4a96a33439e75d0e62ac0fd6
+      internalID: -2802845674626856191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ingranaggi_25
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1174
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f14d3c987b58c34c9b260764f5d3bbc
+      internalID: 2016576878990990891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ingranaggi_26
+      rect:
+        serializedVersion: 2
+        x: 892
+        y: 652
+        width: 195
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60332de7290b11843900e05294d3caed
+      internalID: -4866946668119964184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ingranaggi_27
       rect:
         serializedVersion: 2
         x: 1181
@@ -211,8 +811,50 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d27728c6bf84a3b44b5eaaed667ac7be
-      internalID: -4214168606261549578
+      spriteID: b859054af4ea65748af3424ac09e86af
+      internalID: -165895659559283837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ingranaggi_28
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 116
+        width: 493
+        height: 493
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0b5016580b70bf4c9893c4a2a2dc1de
+      internalID: -7715538420777182428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ingranaggi_29
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 1209
+        width: 250
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f5356709c892cb4b9819fd6d84b922a
+      internalID: -4966693931112406211
       vertices: []
       indices: 
       edges: []
