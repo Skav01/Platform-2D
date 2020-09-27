@@ -22,7 +22,7 @@ public class FlappyShip : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.UpArrow))
             rb.velocity = Vector2.up * jump;
 
-        //Instantiate(bullet,transform.position,transform.rotation);
+        Instantiate(bullet);
 
 
     }

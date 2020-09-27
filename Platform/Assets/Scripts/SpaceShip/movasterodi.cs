@@ -25,7 +25,7 @@ public class movasterodi : MonoBehaviour
         if (col.transform.CompareTag("Bullet"))
         {
             Debug.Log("colpito");
-            Instantiate(effect, transform.position, Quaternion.identity);
+            //Instantiate(effect, transform.position, Quaternion.identity);
             Destroy(gameObject);
 
         }

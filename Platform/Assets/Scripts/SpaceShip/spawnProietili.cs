@@ -31,8 +31,8 @@ public class spawnProietili : MonoBehaviour
             switch (whatToSpwan)
             {
                 case 1:
-                    //Instantiate(proiettili, new Vector3(spawnBullet.position.x,spawnBullet.position.y,proiettili.transform.position.z), Quaternion.identity);
-                    Instantiate(proiettili);
+                    Instantiate(proiettili, new Vector3(spawnBullet.position.x,spawnBullet.position.y,proiettili.transform.position.z), Quaternion.identity);
+                    
                     //Instantiate(quadratorosso, transform.position, Quaternion.identity);
                     break;
 
