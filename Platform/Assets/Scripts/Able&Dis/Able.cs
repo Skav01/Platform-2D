@@ -5,12 +5,12 @@ using UnityEngine;
 public class Able : MonoBehaviour
 {
     public GameObject ObjectToAble;
-    public static bool able = false;
     GameObject bottone;
     // Start is called before the first frame update
     void Start()
     {
         bottone = GameObject.FindWithTag("bottone");
+        ObjectToAble = GameObject.FindWithTag("Able");
     }
 
     // Update is called once per frame
@@ -18,9 +18,12 @@ public class Able : MonoBehaviour
     {
         
     }
-    void OnCollisionEnter(Collision col)
+    void OnCollisionEnter2D(Collision2D col)
     {
-        if (col.transform.CompareTag("bottone"))
-            ObjectToAble.SetActive(true);
+        Renderer rend = ObjectToAble.GetComponent<Renderer>();
+        if (rend.enabled == false)
+            if (col.transform.CompareTag("bottone"))
+                //Debug.Log("Colpito");
+                rend.enabled = true;
     }
 }
