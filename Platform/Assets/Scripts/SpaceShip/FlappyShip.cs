@@ -6,6 +6,11 @@ public class FlappyShip : MonoBehaviour
 {
     private Rigidbody2D rb;
     public float speed,jump;
+
+    public GameObject effect;
+    public Transform spawnPoint;
+    public Transform bonusSpawn;
+    public Transform portale;
     
     
     // Start is called before the first frame update
@@ -31,9 +36,28 @@ public class FlappyShip : MonoBehaviour
     {
         if (collision.transform.CompareTag("enemy"))
         {
+            Heart.life -= 2;
 
-            Destroy(gameObject);
+            if (Heart.life < 0)
+            {
+                //col.transform.position = spawnPoint.position;
 
+                rb.transform.position = spawnPoint.position;
+            }
+            // SceneManager.LoadScene("GameOver");
+            else if (Heart.life >= 0)
+            {
+                //col.transform.position = spawnPoint.position;
+
+                rb.transform.position = bonusSpawn.position;
+            }
+
+
+        }
+
+        if (collision.transform.CompareTag("Portale"))
+        { 
+            rb.transform.position = portale.position;
         }
     }
 

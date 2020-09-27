@@ -13,10 +13,10 @@ GameObject:
   - component: {fileID: 7817189363242591426}
   - component: {fileID: 7817189363242591430}
   - component: {fileID: 7817189363242591433}
-  - component: {fileID: 7817189363242591431}
+  - component: {fileID: 8628970537305526704}
   m_Layer: 0
   m_Name: spaceship
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29,10 +29,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7817189363242591427}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -55.56623, y: -5.3085, z: 11.43}
+  m_LocalPosition: {x: -55.611, y: -5.3085, z: 11.43}
   m_LocalScale: {x: 0.1, y: 0.1, z: 1}
-  m_Children:
-  - {fileID: 7817189364941520652}
+  m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -117,10 +116,10 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 1
-  m_Mass: 2.2311716
+  m_Mass: 1.5865726
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 1.2
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
@@ -139,9 +138,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 7
-  jump: 7
---- !u!61 &7817189363242591431
-BoxCollider2D:
+  jump: 20
+  effect: {fileID: 6368027677475875189, guid: 503ca4ccb3733b34fb77fe465b4a6e0c, type: 3}
+  spawnPoint: {fileID: 0}
+  bonusSpawn: {fileID: 0}
+--- !u!70 &8628970537305526704
+CapsuleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -153,93 +155,6 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.40428543, y: 0.37411928}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 24.039999, y: 9.281663}
-    newSize: {x: 22.1, y: 9.10163}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 22.908571, y: 9.739461}
-  m_EdgeRadius: 0
---- !u!1 &7817189364941520653
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 7817189364941520652}
-  - component: {fileID: 7817189364941520654}
-  - component: {fileID: 7817189364941520655}
-  m_Layer: 0
-  m_Name: spawnProiettili
-  m_TagString: Bullet
-  m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!4 &7817189364941520652
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7817189364941520653}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 10.17, y: -3.02, z: 11.43}
-  m_LocalScale: {x: 0.57531, y: 0.57531, z: 0.57531}
-  m_Children: []
-  m_Father: {fileID: 7817189363242591428}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &7817189364941520654
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7817189364941520653}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: -16.130938, y: 4.3792424}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 38.583477, y: 13.306241}
-  m_EdgeRadius: 0
---- !u!114 &7817189364941520655
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7817189364941520653}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 89f83dbde51743c43a27a8678913526e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  proiettili: {fileID: 0}
-  spawnBullet: {fileID: 7817189364941520652}
-  Distanza: {fileID: 0}
-  distance: 0
-  spawnRate: 0.2
-  nextSpawn: 0
-  time: 0
+  m_Offset: {x: -0.91, y: 0}
+  m_Size: {x: 19.56, y: 9}
+  m_Direction: 1
