@@ -23,6 +23,7 @@ TagManager:
   - Rocket
   - Barchetta
   - Able
+  - Bullet
   layers:
   - Default
   - TransparentFX
