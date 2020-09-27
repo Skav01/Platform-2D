@@ -6,8 +6,8 @@ public class FlappyShip : MonoBehaviour
 {
     private Rigidbody2D rb;
     public float speed,jump;
-    public GameObject bullet;
-    public Transform spawnposition;
+    
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -22,7 +22,7 @@ public class FlappyShip : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.UpArrow))
             rb.velocity = Vector2.up * jump;
 
-        Instantiate(bullet);
+        
 
 
     }
