@@ -13,7 +13,7 @@ public class Heart : MonoBehaviour
         if (collision.transform.CompareTag("Player"))
         {
             life +=1;
-            Instantiate(effect, transform.position, Quaternion.identity);            
+            Instantiate(effect, transform.position, Quaternion.identity); 
             Destroy(gameObject);
         }    
     }
