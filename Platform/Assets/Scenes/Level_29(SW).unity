@@ -11465,12 +11465,12 @@ PrefabInstance:
     - target: {fileID: 5883223072210689348, guid: 3fa22ddbf434a6e4aa9a2c18c120d8ef,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -54.6
+      value: -54.76
       objectReference: {fileID: 0}
     - target: {fileID: 5883223072210689348, guid: 3fa22ddbf434a6e4aa9a2c18c120d8ef,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -5.5
+      value: -5.65
       objectReference: {fileID: 0}
     - target: {fileID: 5883223072210689348, guid: 3fa22ddbf434a6e4aa9a2c18c120d8ef,
         type: 3}
@@ -11528,6 +11528,11 @@ PrefabInstance:
       propertyPath: bonusSpawn
       value: 
       objectReference: {fileID: 615368248}
+    - target: {fileID: 3347167303944729131, guid: 3fa22ddbf434a6e4aa9a2c18c120d8ef,
+        type: 3}
+      propertyPath: Cuore
+      value: 
+      objectReference: {fileID: 1991307016}
     - target: {fileID: 5883223072210689370, guid: 3fa22ddbf434a6e4aa9a2c18c120d8ef,
         type: 3}
       propertyPath: m_GravityScale
@@ -24578,7 +24583,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: b6ca6d291a16ad0439b3b2959e4683e4, type: 3}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -24663,19 +24668,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &1991307017
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1991307011}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3af1fc87a92322b488793c6c157f0aa2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Heart: {fileID: 0}
 --- !u!1 &1999013901
 GameObject:
   m_ObjectHideFlags: 0
