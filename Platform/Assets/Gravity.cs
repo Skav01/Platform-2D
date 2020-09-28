@@ -10,10 +10,11 @@ public class Gravity : MonoBehaviour
 
     public Transform spawnPoint;
     public Transform bonusSpawn;
-
+    public AudioSource Cuore;
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        Cuore = GetComponent<AudioSource>();
     }
     void FixedUpdate()
     {
@@ -67,6 +68,11 @@ public class Gravity : MonoBehaviour
 
                 rb.transform.position = bonusSpawn.position;
             }
+        }
+
+        if (col.transform.CompareTag("Heart"))
+        {
+            Cuore.Play();
         }
 
     }

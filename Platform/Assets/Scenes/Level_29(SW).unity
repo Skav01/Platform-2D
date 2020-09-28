@@ -11452,6 +11452,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 8992655131456739828, guid: 3fa22ddbf434a6e4aa9a2c18c120d8ef,
+        type: 3}
+      propertyPath: effect
+      value: 
+      objectReference: {fileID: 822729869}
     - target: {fileID: 5883223072210689369, guid: 3fa22ddbf434a6e4aa9a2c18c120d8ef,
         type: 3}
       propertyPath: m_Name
@@ -11528,7 +11533,10 @@ PrefabInstance:
       propertyPath: m_GravityScale
       value: 4
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -2156703782338545420, guid: 3fa22ddbf434a6e4aa9a2c18c120d8ef, type: 3}
+    - {fileID: 2672151101795099406, guid: 3fa22ddbf434a6e4aa9a2c18c120d8ef, type: 3}
+    - {fileID: 8992655131456739828, guid: 3fa22ddbf434a6e4aa9a2c18c120d8ef, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 3fa22ddbf434a6e4aa9a2c18c120d8ef, type: 3}
 --- !u!4 &767331381 stripped
 Transform:
@@ -11679,6 +11687,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 107d6478eda0ec9478c4af17ecb47d9c, type: 3}
+--- !u!1 &822729869 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4164012786472679304, guid: e2810e5fdf1cbd64d9b1fe698c0dbb87,
+    type: 3}
+  m_PrefabInstance: {fileID: 615368247}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &832041831
 GameObject:
   m_ObjectHideFlags: 0
@@ -24379,7 +24393,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 5efe48215c76dd645bdb2e1429b030e7, type: 3}
+  m_audioClip: {fileID: 8300000, guid: a0bbb2f77bf255a4d9d1f20305f19fcb, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -24564,7 +24578,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: b6ca6d291a16ad0439b3b2959e4683e4, type: 3}
-  m_PlayOnAwake: 0
+  m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
   Loop: 0

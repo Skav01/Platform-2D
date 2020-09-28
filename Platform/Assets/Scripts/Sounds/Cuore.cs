@@ -19,7 +19,7 @@ public class Cuore : MonoBehaviour
     }
     void OnCollisionEnter(Collision col)
     {
-        if (col.gameObject.tag == "Heart")
+        if (col.gameObject.tag == "Player")
         {
             Heart.Play();
         }

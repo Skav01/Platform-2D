@@ -23,7 +23,7 @@ public class PlayerController : MonoBehaviour
 
     public GameObject gameOverUI;
 
-    public AudioSource coin;
+    public AudioSource Cuore;
 
     
     public Transform bonusSpawn;
@@ -33,7 +33,7 @@ public class PlayerController : MonoBehaviour
     {
         extraJumps = extraJumpsValue;
         rb=GetComponent<Rigidbody2D>();
-        coin = GetComponent<AudioSource>();
+        Cuore = GetComponent<AudioSource>();
         
     }
 
@@ -97,6 +97,10 @@ public class PlayerController : MonoBehaviour
                 rb.transform.position = bonusSpawn.position;
             }
             //ScoreScript.scoreValue=0;
+        }
+        if(col.transform.CompareTag("Heart"))
+        {
+            Cuore.Play();
         }
         
        
