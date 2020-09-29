@@ -87,7 +87,10 @@ public class PlayerController : MonoBehaviour
             {
                 //col.transform.position = spawnPoint.position;
 
-                rb.transform.position = spawnPoint.position;
+                //rb.transform.position = spawnPoint.position;
+                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+                Heart.life = 1;
+
             }
             // SceneManager.LoadScene("GameOver");
             else if (Heart.life >= 0)
@@ -95,6 +98,7 @@ public class PlayerController : MonoBehaviour
                 //col.transform.position = spawnPoint.position;
 
                 rb.transform.position = bonusSpawn.position;
+               
             }
             //ScoreScript.scoreValue=0;
         }

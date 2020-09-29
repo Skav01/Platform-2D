@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Gravity : MonoBehaviour
 {
@@ -59,14 +60,18 @@ public class Gravity : MonoBehaviour
             {
                 //col.transform.position = spawnPoint.position;
 
-                rb.transform.position = spawnPoint.position;
+                //rb.transform.position = spawnPoint.position;
+                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+                Heart.life = 1;
+
             }
             // SceneManager.LoadScene("GameOver");
             else if (Heart.life >= 0)
             {
                 //col.transform.position = spawnPoint.position;
-
+                //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
                 rb.transform.position = bonusSpawn.position;
+                
             }
         }
 
