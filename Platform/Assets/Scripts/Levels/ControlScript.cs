@@ -11,10 +11,10 @@ public class ControlScript : MonoBehaviour
     //              l32, l33, l34, l35, l36, l37, l38, l39, l40, l41;
 
     public Button[] LevelButt;
-
+    public string levelname;
     // int lvps;   //level Passed
 
-
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -28,6 +28,11 @@ public class ControlScript : MonoBehaviour
             }
         }
         
+    }
+
+    public void Select(string levelName)
+    {
+        SceneManager.LoadScene(levelName);
     }
 
   

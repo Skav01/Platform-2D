@@ -13,12 +13,16 @@ public class NextLEvel : MonoBehaviour
 
     public void nextLevel()
     {
-        // SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+
+
+        //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         SceneManager.LoadScene(nextSceneLoad);
 
         if (nextSceneLoad > PlayerPrefs.GetInt("levelAt"))
         {
             PlayerPrefs.SetInt("levelAt", nextSceneLoad);
         }
+
+
     }
 }
